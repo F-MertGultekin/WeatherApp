@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/swipe_refresh_layout"
@@ -133,21 +133,23 @@
 
 
                     <TextView
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="data1"/>
+                        android:text="Humidity"/>
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wind Speed"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="data1"/>
+                        android:text="Latitude"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="data1"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="data1"/>
+                        android:text="Longitude"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -158,18 +160,22 @@
 
 
                     <TextView
+                        android:id="@+id/tv_humidity"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="data1"/>
                     <TextView
+                        android:id="@+id/tv_wind_speed"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="data1"/>
                     <TextView
+                        android:id="@+id/tv_lat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="data1"/>
                     <TextView
+                        android:id="@+id/tv_lon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="data1"/>
